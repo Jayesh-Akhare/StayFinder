@@ -1,0 +1,120 @@
+.home-container {
+  padding: 20px 16px;
+  font-family: Arial, sans-serif;
+}
+
+.hero-section {
+  background-image: url('https://source.unsplash.com/1600x600/?travel,stay');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  margin-top: 10px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-end;
+  margin-bottom: 24px;
+}
+
+.filter-input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  min-width: 150px;
+}
+
+.small-input {
+  width: 100px;
+}
+
+.filter-button {
+  padding: 10px 16px;
+  background-color: #2563eb; /* blue */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.filter-button:hover {
+  background-color: #1e40af; /* darker blue */
+}
+
+.listings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+  gap: 20px;
+}
+
+.listing-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.listing-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.listing-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.listing-title {
+  margin: 12px 16px 4px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.listing-location {
+  margin: 0 16px 4px;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.listing-price {
+  margin: 0 16px 12px;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.book-button {
+  background-color: #16a34a; /* green */
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 16px;
+  border-radius: 0 0 8px 8px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.book-button:hover {
+  background-color: #15803d; /* darker green */
+}
